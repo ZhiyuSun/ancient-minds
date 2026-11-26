@@ -1,0 +1,21 @@
+# 成片与音频：体积大，可由 build.sh 重新生成，成片另存网盘
+*.mp4
+*.mov
+*.wav
+*.aiff
+# 渲染输出与中间帧
+out/
+**/out/
+renders/
+**/renders/
+**/frames/
+shots/
+stills/
+chk/
+# 环境
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
+# 密钥
+.env
